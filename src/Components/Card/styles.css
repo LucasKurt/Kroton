@@ -1,0 +1,48 @@
+.card {
+    width: 292px;
+    margin: 0 8px 13px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    height: 182px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .card-body {
+    background-color: #fff;
+    height: 147px;
+    border-radius: 0 0 8px 8px;
+}
+
+.card .card-body p {
+    color: #333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 16px 0 8px 16px;
+}
+
+.card .card-body h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 19px 16px;
+}
+
+.card .card-body button {
+    width: 260px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #0062FF;
+    border-radius: 4px;
+    color: #0062ff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 16px;    
+}

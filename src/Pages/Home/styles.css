@@ -1,0 +1,143 @@
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    height: 87px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 32px;
+}
+
+.section-1 {
+    height: 241px;
+    margin-top: 24px;
+    display: flex;
+    padding: 0 24px;
+}
+
+.section-2 {
+    background-color: #fff;
+    width: 1216px;
+    height: 166px;
+    margin: 24px auto 29px auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 h1 {
+    color: #005EA4;
+    margin: 16px 0 19px 24px;
+}
+
+.section-2 .form {
+    margin: auto 0 32px 16px;
+    display: flex;
+}
+
+.section-2 .form button {
+    background-color: #0030ff;
+    width: 49px;
+    height: 49px;
+    margin: auto 32px 0 8px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.section-2 .form button p {
+    display: none;
+}
+
+.titulo-4 {
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    margin: 29px 0 19px 32px;
+}
+
+.section-3 {
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #ffad01;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 526px 0 526px;
+}
+
+@media(max-width: 472px) {
+    .container{
+        width: 472px;
+    }
+
+    .section-1{
+        padding: 0 4px;
+        overflow: hidden;
+    }
+
+    .section-2 {
+        width: 434px;
+        height: 414px;
+        margin: 24px 16px;
+    }
+
+    .section-2 h1 {
+        margin: 16px 16px 8px;
+    }
+    
+    .section-2 .form {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .section-2 .form button{
+        width: 265px;
+        margin: 8px 84.5px;
+    }
+
+    .section-2 .form button img {
+        display: none;
+    }
+
+    .section-2 .form button p {
+        display: block;
+        color: #E0E0E0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .titulo-4{
+        display: none;
+    }
+
+    .section-3 {
+        padding: 8px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    a {
+        display: none;
+    }
+}
